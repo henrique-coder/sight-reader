@@ -1,15 +1,22 @@
-# IDE
-.idea
-
-# Cache
-node_modules
-build
-
-# Directories
-# ...
-
-# Files
-# ...
+# Folders
+.idea/
+.vscode/
+node_modules/
+.gemini/
+.claude/
+.debug/
+.vercel/
+.old/
 
 # Extensions
 *.env
+*.log
+*.tmp
+*.bak
+
+# Build artifacts
+build/
+dist/
+*.build/
+*.dist/
+.vercel
